@@ -1,0 +1,40 @@
+body > div{
+    display: flex;
+    justify-content: space-between;
+}
+.red, .orange, .green, .rgb, .sred, .sgreen, .sorange,.wred, .wgreen, .worange{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.sred, .sorange, .sgreen, .wred, .wgreen, .worange{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sgreen{
+    background-color: greenyellow;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: greenyellow;
+}
+.s1, .s2, .w1, .w2, .p1, .p2, .p3, .p4{
+    padding: 10px;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+}
+.rgb{
+    background-color: yellow;
+    text-align: center;
+}
+.p2, .p3, .p4{
+    margin-top: 20px;
+}
